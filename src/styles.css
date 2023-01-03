@@ -1,0 +1,209 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    }
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: solid;
+    border-color: black;
+}
+
+.details {
+    background-color: blue;
+    border-radius: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #65524d;
+    height: 50px;
+    border-bottom: solid;
+    border-color: black;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.main {
+    display:flex;
+    height: 95vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.projectsDiv {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid;
+    font-weight: bold;
+}
+
+.remove-button-projects {
+    height: 15px;
+    width: 15px;
+}
+
+.content {
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+}
+
+ 
+a {
+    text-decoration: none;
+    color:#8884FF;
+}
+
+.sidebar {
+    background-color: #817e9f;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;
+    border-right: solid;
+}
+
+.menuButton {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    background-color: #FF7E6B;
+}
+
+.Add {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    background-color: #FF7E6B;
+
+}
+
+.form {
+    font-weight: bold;
+}
+
+input {
+    background-color:#FF7E6B;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+}
+
+
+.addProjects {
+    display: flex;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    background-color: #FF7E6B;
+}
+
+
+#extrasDiv {
+    display: block;
+    width: 100%;
+    height: 1px;
+    font-size: 25px;
+}
+
+.extracontainer {
+    display: block;
+    width: 50%;
+    height: 50%;
+}
+
+.priorityButton {
+    background-color: #8884FF;
+    border-radius: 8px;
+    width: 25px;
+    height: 25px;
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.remove-button {
+    background-color: #6BF178;
+    border-radius: 8px;
+    width: 25px;
+    height: 25px;
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.remove-button-projects {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    background-color: #FF7E6B;
+
+}
+
+@media (max-width: 600px) {
+    body > *:not(#message) {
+      display: none;
+    }
+    body {
+      background-color: black;
+    }
+    #message {
+      font-weight: bold;
+      color: wheat;
+    }
+  }
+  
+@media (min-width: 601px) {
+    #message {
+        display: none;
+    }
+  }
